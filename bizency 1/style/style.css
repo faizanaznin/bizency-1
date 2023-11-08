@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+
+/* HEADER START */
+#head{
+    background-color: #0f2f44;
+    color: #fefefe;
+}
+#head .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+
+/* NAV */
+nav{
+    background-color: #ffffff;
+}
+nav .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 95px;
+
+}
+nav .row li{
+    display: inline-block;
+    margin: 0 20px;
+    text-transform: capitalize !important;
+}
+nav .row li a{
+    font-size: 16px;
+    font-weight: bold;
+}
+nav li a span{
+  border: 1px solid #0f2f44;
+  border-radius: 50%;
+  color: #0f2f44;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding: 3px;
+}
+
+/* BANNER */
+#banner{
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+
+}
+.banner{
+    width: 483px;
+
+    
+}
+.banner_cnt{
+    font-weight: 300;
+    font-size: 50px;
+    color: #0f2f44;
+}
+.banner_cnt{
+    font-family: ;
+    font-weight: 300;
+    font-size: 80px;
+}
